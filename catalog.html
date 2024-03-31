@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="assets/logo_icons/favicon.png">
+    <title>Fortune shop - profile</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="assets/macbookpng.png" width="60px" height="60px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="signup.html"><img 
+                  class="system_icons" 
+                  src="assets/system_icons/registration.png" 
+                  alt=""> Регистрация</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"><img 
+                  class="system_icons" 
+                  src="assets/system_icons/catalog.png" 
+                  alt=""
+                  > Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html"><img 
+                  class="system_icons" 
+                  src="assets/system_icons/profil.png" 
+                  alt="значек профиля">Профиль</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Поиск товаров" aria-label="Поиск">
+              <button class="btn btn-outline-success" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+    <main>
+          <h1 class="filters">Фильтры</h1>
+          <section class="catalog">
+            <form>
+              <h5>Наличие в магазинах</h5>
+              <div class="form-check">
+                <input 
+                class="form-check-input"
+                type="radio"
+                name="devilery"
+                id="adres1"
+                >
+                <label 
+                class="form-check-label"
+                for="adres1"
+                >
+                Москва</label>
+              </div>
+              <div class="form-check">
+                <input 
+                class="form-check-input"
+                type="radio"
+                name="devilery"
+                id="adres2"
+                checked
+                >
+                <label 
+                class="form-check-label"
+                for="adres2"
+                >
+                Брянск</label>
+              </div>
+              <div class="form-check">
+                <input 
+                class="form-check-input"
+                type="radio"
+                name="devilery"
+                id="adres2"
+                checked
+                >
+                <label 
+                class="form-check-label"
+                for="adres2"
+                >
+                Челябинск</label>
+              </div>
+              <select class="form-select">
+                <option value="1"><h1>В наличии</h1></option>
+                <option value="2">Отсутствует</option>
+                <option value="3">В магазинах через месяц</option>
+              </select>
+              <label class="form-check-label" for="brand2">
+                Производитель 
+              </label>
+              <div class="form-check">
+              <input 
+              class="form-check-input"
+              type="checkbox"
+              id="brand3"
+              checked
+              >
+              <label class="form-check-label" for="brand3">
+                Intel
+              </label>           
+            </div>
+            <div class="form-check">
+              <input 
+              class="form-check-input"
+              type="checkbox"
+              id="brand3"
+              checked
+              >
+              <label class="form-check-label" for="brand3">
+                AMD
+              </label>           
+            </div>
+            <label class="form-check-label" for="brand2">
+              Количество ядер 
+            </label>
+          </div>
+          <div class="form-check">
+            <input 
+            class="form-check-input"
+            type="checkbox"
+            id="brand3"
+            checked
+            >
+            <label class="form-check-label" for="brand3">
+              6 ядер 
+            </label>           
+          </div>
+          <div class="form-check">
+            <input 
+            class="form-check-input"
+            type="checkbox"
+            id="brand3"
+            checked
+            >
+            <label class="form-check-label" for="brand3">
+              8 ядер
+            </label>           
+          </div>
+          <label class="form-check-label" for="brand2">
+            Наличие интергрированного<br> видеоядра 
+          </label>
+        </div>
+        <div class="form-check">
+          <input 
+          class="form-check-input"
+          type="checkbox"
+          id="brand3"
+          checked
+          >
+          <label class="form-check-label" for="brand3">
+            Есть 
+          </label>           
+        </div>
+        <div class="form-check">
+          <input 
+          class="form-check-input"
+          type="checkbox"
+          id="brand3"
+          checked
+          >
+          <label class="form-check-label" for="brand3">
+            Нет
+          </label>           
+        </div>
+          </form>
+          </section>
+    </main>
+    <footer>
+        <p class="text">все права защищены</p>
+    </footer>
+</body>
+</html>
